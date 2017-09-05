@@ -12,26 +12,7 @@
           <h1>Nature Coiffure</h1>
           <h3>Salon de coiffure à Lyon Croix-Rousse</h3>
           <hr class="intro-divider">
-          <ul class="list-inline intro-social-buttons">
-            <li class="list-inline-item">
-              <a href="#" class="btn btn-secondary btn-lg">
-                <i class="fa fa-facebook fa-fw"></i>
-                <span class="network-name">Facebook</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="btn btn-secondary btn-lg">
-                <i class="fa fa-github fa-fw"></i>
-                <span class="network-name">Github</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="btn btn-secondary btn-lg">
-                <i class="fa fa-linkedin fa-fw"></i>
-                <span class="network-name">Linkedin</span>
-              </a>
-            </li>
-          </ul>
+          {% include links.html %}
         </div>
       </div>
     </header>
@@ -98,26 +79,7 @@
                 <h2>Connect to Start Bootstrap:</h2>
               </div>
               <div class="col-lg-6 my-auto">
-                <ul class="list-inline banner-social-buttons">
-                  <li class="list-inline-item">
-                    <a href="#" class="btn btn-secondary btn-lg">
-                      <i class="fa fa-twitter fa-fw"></i>
-                      <span class="network-name">Twitter</span>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#" class="btn btn-secondary btn-lg">
-                      <i class="fa fa-github fa-fw"></i>
-                      <span class="network-name">Github</span>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#" class="btn btn-secondary btn-lg">
-                      <i class="fa fa-linkedin fa-fw"></i>
-                      <span class="network-name">Linkedin</span>
-                    </a>
-                  </li>
-                </ul>
+                {% include links.html %}
               </div>
             </div>
           </div>
@@ -128,7 +90,6 @@
         {% include footer.html %}
         <!-- Bootstrap core JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
       </body>
