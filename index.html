@@ -22,19 +22,40 @@ layout: main
 <section class="content-section-b">
   <div class="container">
     <div class="row">
-      <div class="col-lg-5 mr-auto order-lg-2">
+      <div class="col-lg-5 ml-auto mr-auto order-lg-2">
         <hr class="section-heading-spacer">
         <div class="clearfix"></div>
-        <h2 class="section-heading">Nos produits</h2>
-        <p class="lead">Nourris de convictions écologiques, éthiques et solidaires, il est fondamental de vous proposer des services de coiffure et d’esthétique de qualités qui respectent l’environnement. C’est pourquoi, tous nos produits sont éco-responsables et non testés sur les animaux. Une nouvelle manière d’appréhender vos soins.</p>
+        <h2 class="section-heading">Horraires d'ouvertures</h2>
+        {% include opening_hours.html %}
       </div>
-      <div class="col-lg-5 ml-auto order-lg-1">
-        <img class="img-fluid  rounded-circle" src="img/product_square.jpg" alt="Apercçu des produits que nous utilisonts">
+      <div class="col-lg-5 mr-auto order-lg-1">
+        <img class="img-fluid rounded-circle" src="img/products_square.jpg" alt="Photo de notre salon de coiffure">
       </div>
     </div>
   </div>
 </section>
 <section class="content-section-a">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 mr-auto">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">Nos produits</h2>
+        <p class="lead">Nourris de convictions écologiques, éthiques et solidaires, il est fondamental de vous proposer des services de coiffure et d’esthétique de qualités qui respectent l’environnement. C’est pourquoi, tous nos produits sont éco-responsables et non testés sur les animaux. Une nouvelle manière d’appréhender vos soins.</p>
+      </div>
+      <div class="col-lg-5 ml-auto">
+        <img class="img-fluid  rounded-circle" src="img/product_square.jpg" alt="Apercçu des produits que nous utilisonts">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="clearfix"></div>
+        {% include prices.html %}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="content-section-b">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
