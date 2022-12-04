@@ -5,6 +5,17 @@
 layout: main
 ---
 
+<header class="intro-header">
+  <div class="container">
+    <div class="intro-message">
+      <h1>{{ site.title }}</h1>
+      <h3>Salon de coiffure à Lyon Croix-Rousse</h3>
+      <hr class="intro-divider" />
+      {% include links.html %}
+    </div>
+  </div>
+</header>
+
 <section class="content-section-a">
   <div class="container">
     <div class="row">
@@ -13,13 +24,11 @@ layout: main
         <div class="clearfix"></div>
         <h2 class="section-heading">Une équipe à votre écoute</h2>
         <p class="lead">
-          Chez Nature Coiffure, nous exigeons le meilleur pour vos cheveux et
-          votre peau. Nous prenons le temps d'échanger avec vous sur vos envies,
-          vos idées afin de dépasser vos attentes.
+          Chez Nature Coiffure, nous exigeons le meilleur pour vos cheveux et votre peau. Nous prenons le temps
+          d'échanger avec vous sur vos envies, vos idées afin de dépasser vos attentes.
         </p>
       </div>
       <div class="col-lg-5 mr-auto">
-        <!-- <img class="img-fluid rounded-circle" src="img/back_right_square.jpg" alt="Photo de notre salon de coiffure"> -->
         <div class="row">
           <!-- Martine -->
           <div class="employe col">
@@ -27,6 +36,7 @@ layout: main
               class="img-fluid rounded-circle"
               data-src="img/martine_square.jpg"
               alt="Photo de Martine"
+              loading="lazy"
             />
             <p class="text-center">Martine <small>Gérante</small></p>
           </div>
@@ -37,6 +47,7 @@ layout: main
               data-src="img/emelyne_square.jpg"
               alt="Photo d'Emeline"
               size="200"
+              loading="lazy"
             />
             <p class="text-center">Emelyne <small>Coiffeuse</small></p>
           </div>
@@ -59,8 +70,9 @@ layout: main
       <div class="col-lg-5 mr-auto order-lg-1">
         <img
           class="img-fluid rounded-circle"
-          src="img/products_square.jpg"
+          src="img/rabbit.jpeg"
           alt="Photo de notre salon de coiffure"
+          loading="lazy"
         />
       </div>
     </div>
