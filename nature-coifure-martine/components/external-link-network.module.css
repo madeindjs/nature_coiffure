@@ -1,0 +1,11 @@
+.externalLinkNetwork {
+  padding: 1rem;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.externalLinkNetwork__name {
+  font-weight: 600;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr_FR">
+  <head>
+    <title>Nature Coiffure Martine</title>
+    <meta name="description" content="Salon de coiffure à Lyon Croix-Rousse" />
+    <!-- CEO Stuffs -->
+    <link rel="canonical" href="http://nature-coiffure-martine.fr/" />
+    <meta property="keywords" content="salon, coiffure, lyon, coupe, cheveux, soins, beauté, couleurs" />
+    <meta property="rv" content="contact@rousseau-alexandre.fr" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ site.data.business.name }}" />
+    <meta property="og:url" content="http://nature-coiffure-martine.fr/" />
+    <meta property="og:site_name" content="{{ site.data.business.name }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ site.data.business.name }}" />
+    <meta name="twitter:description" content="{{ site.data.business.description }}" />
+    <!-- meta -->
+    <meta name="google-site-verification" content="Z_1TpnrBSiWBWWCGy5VQTcfHv1CnW1CmpIV_qgoizWg" />
+    <!-- compatibilities -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><strong>Nature Coiffure Martine</strong></li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#opening-hours">Horaires</a>
+        </li>
+        <li>
+          <a href="#pricing">Tarifs</a>
+        </li>
+        <li>
+          <a href="#products">Produits</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="intro-header">
+  <div class="container">
+    <div class="intro-message">
+      <h1>{{ site.title }}</h1>
+      <h3>Salon de coiffure à Lyon Croix-Rousse</h3>
+      <hr class="intro-divider">
+      {% include links.html %}
+    </div>
+  </div>
+</header>
+<section class="content-section-a">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 ml-auto">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">Une équipe à votre écoute</h2>
+        <p class="lead">Chez Nature Coiffure, nous exigeons le meilleur pour vos cheveux et votre peau. Nous prenons le temps d'échanger avec vous sur vos envies, vos idées afin de dépasser vos attentes.</p>
+      </div>
+      <div class="col-lg-5 mr-auto">
+        <img class="img-fluid rounded-circle" src="img/back_right_square.jpg" alt="Photo de notre salon de coiffure">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- nos horaires -->
+<section id="opening-hours" class="content-section-b">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 ml-auto mr-auto order-lg-2">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">Horaire d'ouverture</h2>
+        {% include opening_hours.html %}
+      </div>
+      <div class="col-lg-5 mr-auto order-lg-1">
+        <img class="img-fluid rounded-circle" src="img/products_square.jpg" alt="Photo de notre salon de coiffure">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Nos tarifs -->
+<section id="pricing" class="content-section-a">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">Nos tarifs</h2>
+        <div class="row">
+          {% include prices.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Nos produits -->
+<section id="products" class="content-section-b">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 mr-auto  order-lg-2">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">Nos produits</h2>
+        <p class="lead">Nourris de convictions écologiques, éthiques et solidaire, nous vous proposons  des services de coiffure. Il est fondamental de vous proposer des services de coiffure et d’esthétique de qualités qui respectent l’environnement. C’est pourquoi, tous nos produits sont éco-responsables. Une nouvelle manière d’appréhender vos soins.</p>
+      </div>
+      <div class="col-lg-5 ml-auto order-lg-1">
+        <img class="img-fluid  rounded-circle" data-src="img/product_square.jpg" alt="Apercu des produits que nous utilisonts">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Une équipe dynamique -->
+<section class="content-section-a">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">Une équipe dynamique</h2>
+        <div class="row">
+          <!-- Martine -->
+          <div class="employe col">
+            <img class="img-fluid  rounded-circle" data-src="img/martine_square.jpg" alt="Photo de Martine">
+            <p class="text-center">Martine <small>Gérante</small></p>
+          </div>
+          <!-- Emeline -->
+          <div class="employe col">
+            <img class="img-fluid  rounded-circle" data-src="img/emelyne_square.jpg" alt="Photo d'Emeline" size="200">
+            <p class="text-center">Emelyne <small>Coiffeuse</small></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <aside class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 my-auto">
+          <h2>Contactez-nous</h2>
+        </div>
+        <div class="col-lg-6 my-auto">
+          {% include links.html %}
+        </div>
+      </div>
+    </div>
+  </aside>
+
+    <!-- /.banner -->
+    <!-- Footer -->
+    {% include footer.html %}
+    <!-- Bootstrap core JavaScript -->
+
+  </body>
+</html>
