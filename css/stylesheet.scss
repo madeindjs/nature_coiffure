@@ -3,5 +3,148 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@import "landing";
-@import "prices";
+// @import "landing";
+// @import "prices";
+
+:root {
+  --size-text: 1.2rem;
+  --color-bg: aliceblue;
+  --color-text: black;
+  --shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+// --- RESET
+
+html {
+  background-color: var(--color-bg);
+}
+
+body {
+  margin: 0;
+  font-size: var(--size-text);
+}
+
+h2 {
+  font-size: calc(var(--size-text) * 2);
+}
+
+// h2::after {
+//   content: "";
+//   display: inline-block;
+//   height: 0.3rem;
+//   width: 3rem;
+//   background-color: var(--color-text);
+
+//   position: relative;
+//   top: 3rem;
+//   left: 4rem;
+// }
+
+// --- CUSTOM
+
+.container {
+  max-width: 80ch;
+  margin: auto;
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.intro-header__title {
+  font-size: var(--size-h1);
+  text-align: center;
+  text-shadow: var(--shadow);
+}
+
+.intro-header {
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/banner-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.intro-header__title,
+.intro-header__lead {
+  text-shadow: var(--shadow);
+}
+
+.intro-header__title {
+  font-size: calc(var(--size-text) * 4);
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.intro-header__lead {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0;
+}
+
+.intro-header__divider {
+  border: none;
+  max-width: 20rem;
+  border-top: 0.3rem solid white;
+  border-radius: 0.5rem;
+}
+
+nav.navbar {
+  padding: 1rem;
+  height: 3rem;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  box-shadow: var(--shadow);
+}
+
+nav.navbar .navbar-brand {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--color-text);
+}
+
+.navbar ul.navbar-items {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a.nav-link {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.links {
+}
+
+.links__internal,
+.links__external {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.links__internal li,
+.links__external li {
+  background-color: var(--color-bg);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.links__internal li a,
+.links__external li a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.links__link__name {
+  font-weight: 600;
+}
