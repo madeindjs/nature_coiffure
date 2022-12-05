@@ -274,6 +274,11 @@ avatar {
     min-height: 400px;
   }
 
+  @media (min-width: 100px) {
+    display: flex;
+    justify-content: center;
+  }
+
   &__content {
     @extend %flex-center;
     flex-direction: column;
@@ -288,6 +293,9 @@ avatar {
     @media (min-width: 650px) {
       max-width: 400px;
       height: 400px;
+    }
+    @media (min-width: 100px) {
+      max-width: 600px;
     }
   }
 }
