@@ -6,73 +6,69 @@ layout: main
 ---
 
 <header class="intro-header">
-  <h1 class="intro-header__title">{{ site.title }}</h1>
-  <p class="intro-header__lead">Salon de coiffure à Lyon Croix-Rousse</p>
-  <hr class="intro-header__divider" />
-  {% include links.html %}
+  <div class="intro-header__circle">
+    <h1 class="intro-header__title">{{ site.title }}</h1>
+    <p class="intro-header__lead">Salon de coiffure à Lyon Croix-Rousse</p>
+    {% include links.html %}
+  </div>
 </header>
 
-<section class="container">
-  <h2>Une équipe à votre écoute</h2>
-  <p>
-    Chez Nature Coiffure, nous exigeons le meilleur pour vos cheveux et votre peau. Nous prenons le temps d'échanger
-    avec vous sur vos envies, vos idées afin de dépasser vos attentes.
-  </p>
+<!-- <a class="fab" href="tel:+33478305344" title="Nous contacter">04 78 30 53 44</a> -->
+
+<nav class="navbar">
+  <ul class="navbar__items">
+    <li class="navbar__item">
+      <a class="navbar__link" href="#opening-hours">Horaires</a>
+    </li>
+    <li class="navbar__item">
+      <a class="navbar__link" href="#pricing">Tarifs</a>
+    </li>
+    <li class="navbar__item">
+      <a class="navbar__link" href="#products">Produits</a>
+    </li>
+    <li class="navbar__item">
+      <a class="navbar__link" href="tel:+33478305344">04 78 30 53 44</a>
+    </li>
+  </ul>
+</nav>
+
+<section class="two-columns">
+  <div>
+    <h2>Une équipe à votre écoute</h2>
+    <p>
+      Chez Nature Coiffure, nous exigeons le meilleur pour vos cheveux et votre peau. Nous prenons le temps d'échanger
+      avec vous sur vos envies, vos idées afin de dépasser vos attentes.
+    </p>
+  </div>
+  <div class="avatars">
+    <!-- Martine -->
+    <figure class="avatar">
+      <img class="avatar__picture" data-src="img/martine_square.jpg" alt="Photo de Martine" loading="lazy" />
+      <figcaption class="avatar__legend">Martine</figcaption>
+    </figure>
+    <!-- Emeline -->
+    <figure class="avatar">
+      <img class="avatar__picture" data-src="img/emelyne_square.jpg" alt="Photo d'Emeline" size="200" loading="lazy" />
+      <figcaption class="avatar__legend">Emelyne</figcaption>
+    </figure>
+  </div>
 </section>
 
-<section class="content-section-a">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-5 ml-auto">
-        <hr class="section-heading-spacer" />
-        <div class="clearfix"></div>
-      </div>
-      <div class="col-lg-5 mr-auto">
-        <div class="row">
-          <!-- Martine -->
-          <div class="employe col">
-            <img class="avatar" data-src="img/martine_square.jpg" alt="Photo de Martine" loading="lazy" />
-            <p class="text-center">Martine <small>Gérante</small></p>
-          </div>
-          <!-- Emeline -->
-          <div class="employe col">
-            <img class="avatar" data-src="img/emelyne_square.jpg" alt="Photo d'Emeline" size="200" loading="lazy" />
-            <p class="text-center">Emelyne <small>Coiffeuse</small></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12"></div>
-    </div>
-  </div>
-</section>
 <!-- nos horaires -->
-<section id="opening-hours" class="content-section-b">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-5 ml-auto mr-auto order-lg-2">
-        <hr class="section-heading-spacer" />
-        <div class="clearfix"></div>
-        <h2 class="section-heading">Horaire d'ouverture</h2>
-        {% include opening_hours.html %}
-      </div>
-      <div class="col-lg-5 mr-auto order-lg-1">
-        <img class="avatar" src="img/rabbit.jpeg" alt="Photo de notre salon de coiffure" loading="lazy" />
-      </div>
-    </div>
+<section class="opening-hours">
+  <div class="opening-hours__content">
+    <h2>Horaire d'ouverture</h2>
+    {% include opening_hours.html %}
   </div>
+  <!-- <div>
+    <img class="avatar" src="img/rabbit.jpeg" alt="Photo de notre salon de coiffure" loading="lazy" />
+  </div> -->
 </section>
+
 <!-- Nos tarifs -->
-<section id="pricing" class="content-section-a">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <hr class="section-heading-spacer" />
-        <div class="clearfix"></div>
-        <h2 class="section-heading">Nos tarifs</h2>
-        <div class="row">{% include prices.html %}</div>
-      </div>
-    </div>
-  </div>
+<section id="pricing">
+  <h2>Nos tarifs</h2>
+  {% include prices.html %}
 </section>
 <!-- Nos produits -->
 <section id="products" class="content-section-b">
