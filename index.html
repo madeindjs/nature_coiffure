@@ -32,8 +32,8 @@ layout: main
   </ul>
 </nav>
 
-<section class="two-columns">
-  <div>
+<section>
+  <div class="container">
     <h2>Une équipe à votre écoute</h2>
     <p>
       Chez Nature Coiffure, nous exigeons le meilleur pour vos cheveux et votre peau. Nous prenons le temps d'échanger
@@ -63,9 +63,9 @@ layout: main
 </section>
 
 <!-- Nos tarifs -->
-<section id="pricing">
+<section id="pricing" class="container">
   <h2>Nos tarifs</h2>
-  {% include prices.html %}
+  <div class="grid">{% include prices.html %}</div>
 </section>
 <!-- Nos produits -->
 <section id="products" class="content-section-b">

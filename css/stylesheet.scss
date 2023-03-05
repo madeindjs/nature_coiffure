@@ -44,6 +44,11 @@ h2 {
   font-size: calc(var(--size-text) * 2);
 }
 
+h3 {
+  margin-top: var(--size-unit);
+  font-size: calc(var(--size-text) * 1.5);
+}
+
 p {
   color: var(--color-text);
 }
@@ -100,7 +105,7 @@ table {
 .avatars {
   @extend %flex-center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: var(--size-unit);
 }
 
 section {
@@ -110,6 +115,12 @@ section {
 
 .text {
   max-width: 65ch;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-unit);
 }
 
 avatar {
@@ -323,5 +334,20 @@ avatar {
   }
   &__link__name {
     font-weight: 550;
+  }
+}
+
+.price-category {
+  background-color: var(--color-primary);
+}
+
+table.prices {
+  width: calc(40ch - var(--size-unit));
+  th {
+    text-align: left;
+  }
+
+  td {
+    text-align: right;
   }
 }
