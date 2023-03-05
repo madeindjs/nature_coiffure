@@ -57,7 +57,7 @@ hr {
   margin-top: calc(var(--size-unit) * 3);
   margin-bottom: calc(var(--size-unit) * 3);
   border: 0;
-  border: 3px solid var(--color-primary);
+  border-top: var(--size-unit) solid var(--color-primary);
 }
 
 section {
@@ -118,9 +118,9 @@ section {
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   gap: var(--size-unit);
+  grid-template-columns: auto auto;
 }
 
 avatar {
@@ -339,12 +339,22 @@ avatar {
 
 .price-category {
   background-color: var(--color-primary);
+  padding: var(--size-unit);
+
+  h3 {
+    color: var(--color-bg);
+  }
 }
 
 table.prices {
-  width: calc(40ch - var(--size-unit));
+  border-spacing: calc(var(--size-unit) * 0.4);
+  tr {
+    margin-bottom: calc(var(--size-unit) * 0.4);
+  }
+
   th {
     text-align: left;
+    color: var(--color-text);
   }
 
   td {
