@@ -1,7 +1,4 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: main
 ---
 
@@ -11,7 +8,7 @@ layout: main
       <h1>{{ site.title }}</h1>
       <p class="h3">Salon de coiffure à Lyon Croix-Rousse</p>
       <hr class="intro-divider" />
-      {% include links.html %}
+      {% include 'links.html' %}
     </div>
   </div>
 </header>
@@ -24,8 +21,9 @@ layout: main
         <div class="clearfix"></div>
         <h2 class="section-heading">Une équipe à votre écoute</h2>
         <p class="lead">
-          Chez Nature Coiffure, nous exigeons le meilleur pour vos cheveux et votre peau. Nous prenons le temps
-          d'échanger avec vous sur vos envies, vos idées afin de dépasser vos attentes.
+          Chez Nature Coiffure, nous exigeons le meilleur pour vos cheveux et
+          votre peau. Nous prenons le temps d'échanger avec vous sur vos envies,
+          vos idées afin de dépasser vos attentes.
         </p>
       </div>
       <div class="col-lg-5 mr-auto">
@@ -34,7 +32,7 @@ layout: main
           <div class="employe col">
             <img
               class="img-fluid rounded-circle"
-              data-src="img/martine_square.jpg"
+              src="img/martine_square.jpg"
               alt="Photo de Martine"
               loading="lazy"
             />
@@ -44,7 +42,7 @@ layout: main
           <div class="employe col">
             <img
               class="img-fluid rounded-circle"
-              data-src="img/emelyne_square.png"
+              src="img/emelyne_square.png"
               alt="Photo d'Emeline"
               size="200"
               loading="lazy"
@@ -65,7 +63,7 @@ layout: main
         <hr class="section-heading-spacer" />
         <div class="clearfix"></div>
         <h2 class="section-heading">Horaire d'ouverture</h2>
-        {% include opening_hours.html %}
+        {% include 'opening_hours.html' %}
       </div>
       <div class="col-lg-5 mr-auto order-lg-1">
         <img
@@ -86,7 +84,7 @@ layout: main
         <hr class="section-heading-spacer" />
         <div class="clearfix"></div>
         <h2 class="section-heading">Nos tarifs</h2>
-        <div class="row">{% include prices.html %}</div>
+        <div class="row">{% include 'prices.html' %}</div>
       </div>
     </div>
   </div>
@@ -99,7 +97,7 @@ layout: main
         <hr class="section-heading-spacer" />
         <div class="clearfix"></div>
         <h2 class="section-heading">Nos produits</h2>
-        {% include products.html %}
+        {% include 'products.html' %}
       </div>
     </div>
   </div>
@@ -109,7 +107,7 @@ layout: main
     <div class="row">
       <div class="col-lg-6 my-auto">
         <h2>Contactez-nous</h2>
-        {% include links.html %}
+        {% include 'links.html' %}
       </div>
       <div class="col-lg-6 my-auto">
         <iframe

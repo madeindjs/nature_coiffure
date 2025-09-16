@@ -1,0 +1,5 @@
+export default {
+  name: "Nature Coiffure Lyon",
+  description: "Salon de coiffure à Lyon Croix-Rousse",
+};
+

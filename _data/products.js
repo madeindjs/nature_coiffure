@@ -1,0 +1,58 @@
+export default [
+  {
+    title: "Dernière nouveauté!",
+    alt: "Dernière nouveauté",
+    image: "/img/ode.jpg",
+    description: [
+      "Invisible et pratique ce patch transdermique diffuse graduellement dans la peau pendant 12 heures un cocktail 'extraits de plantes qui agissent en synergie sur les causes principales de la chute de cheveux .",
+      "Romarin , pivoine, houblon , palmier , grande ortie , huile de soja et panthénol (vitamine B5) .",
+    ],
+  },
+  {
+    title: "Coloration sans ammoniaque",
+    alt: "Produit Virgin Color",
+    image: "/img/the--virgin-color.jpg",
+    description: [
+      "Formulée avec des ingrédients végétaux et biologiques et éco-certifiée de haute qualité , spécialement sélectionnées pour leurs puissantes propriétés régénérantes , conservatrices et anti-âge.",
+    ],
+    badges: [
+      'sans <abbr title="Paraphénylènediamine">PPD</abrr>',
+      "sans ammoniaque",
+    ],
+  },
+  {
+    title: "Nook difference Hair Care",
+    alt: "Produit Nook",
+    image: "/img/nook.jpg",
+    description: [
+      "Nature, Equilibre et Harmonie. Cette gamme représente la  parfaite combinaison. Traite les cheveux et le cuir chevelu avec douceur en améliorant leur beauté et en intervenant sur les anomalies les plus courantes . Elle consiste à les ramener à leur équilibre originel.",
+    ],
+    badges: [
+      "Sans parabens",
+      "Sans parfum allergisant",
+      'Sans <abbr title="Sodium Laureth Sulfate (Détergent)">SLS</abbr> ni <abbr title="Ether de lauryl sulfate de sodium (Détergent)">SLES</abbr>',
+    ],
+  },
+  {
+    title: "100% Vegan",
+    alt: "Produit 100% Vegan",
+    image: "/img/solar.jpg",
+    description: [
+      "La nouvelle gamme de produits, 100% vegan, formulée avec au moins 90% de produit d'origine naturelle, pour les soins quotidiens de toute la famille. Les précieux ingrédients biologiques qui composent chaque produit , riches en propriétés anti-oxydantes et ultra hydratantes , protègent et préservent la santé et la beauté des cheveux et des peaux exposés au soleil , au vent , aux facteurs environnementaux , au stress et à la pollution , en été et tout au long de l'année\"",
+    ],
+    badges: [
+      "sans alcool",
+      'Sans <abbr title="Sodium Laureth Sulfate (Détergent)">SLS</abbr> ni <abbr title="Ether de lauryl sulfate de sodium (Détergent)">SLES</abbr>',
+      "Sans parabens",
+      "Sans allergène",
+    ],
+  },
+  {
+    title: "Biotanik Origin Color",
+    alt: "Produit Biotanik Origin Color",
+    image: "/img/united-origin.jpg",
+    description: [
+      "Après plusieurs années de  recherche , le laboratoire Inéal avec l'aide de spécialistes a crée biotanik origin color.",
+    ],
+  },
+];

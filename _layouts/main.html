@@ -1,16 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr_FR">
-  {% include head.html %}
+  {% include 'head.html' %}
   <body>
-    {% include navigation.html %} {{ content }}
+    {% include 'navigation.html' %} {{ content }}
 
     <!-- /.banner -->
     <!-- Footer -->
-    {% include footer.html %}
+    {% include 'footer.html' %}
     <!-- Bootstrap core JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.0.1/lazyload.min.js"></script>
-    <script type="text/javascript">
-      var myLazyLoad = new LazyLoad();
-    </script>
   </body>
 </html>

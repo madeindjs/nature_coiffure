@@ -1,10 +1,16 @@
 <div class="card-columns"></div>
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-  {% for product in site.data.products %}
+  {% for product in products %}
   <div class="col mb-4">
     <div class="card">
-      <img loading="lazy" src="{{ product.image }}" class="card-img-top" alt="{{ product.alt }}" />
+      <img
+        loading="lazy"
+        src="{{ product.image }}"
+        class="card-img-top"
+        alt="{{ product.alt }}"
+        eleventy:ignore
+      />
       <div class="card-body">
         <h3 class="card-title">{{ product.title }}</h3>
         {% for description in product.description %}
