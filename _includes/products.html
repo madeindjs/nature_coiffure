@@ -8,8 +8,9 @@
         loading="lazy"
         src="{{ product.image }}"
         class="card-img-top"
-        alt="{{ product.alt }}"
-        eleventy:ignore
+        alt="Produit {{ product.title }}"
+        eleventy:formats="webp"
+        style="height: auto"
       />
       <div class="card-body">
         <h3 class="card-title">{{ product.title }}</h3>

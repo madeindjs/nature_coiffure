@@ -1,58 +1,43 @@
 export default [
   {
-    title: "Dernière nouveauté!",
-    alt: "Dernière nouveauté",
-    image: "/img/ode.jpg",
+    title: "Sublimo enfant",
+    image: "/img/products/sublimo.jpg",
     description: [
-      "Invisible et pratique ce patch transdermique diffuse graduellement dans la peau pendant 12 heures un cocktail 'extraits de plantes qui agissent en synergie sur les causes principales de la chute de cheveux .",
-      "Romarin , pivoine, houblon , palmier , grande ortie , huile de soja et panthénol (vitamine B5) .",
+      "Transformez chaque moment de soin en une véritable aventure ludique et enchantée.",
+      "Avec une composition hautement naturelle et une formulation professionnelle, nos produits sont spécialement conçus pour prendre soin des cheveux et de la peau délicate des enfants.",
     ],
+    badges: ["100% français 🇲🇫"],
   },
   {
-    title: "Coloration sans ammoniaque",
-    alt: "Produit Virgin Color",
-    image: "/img/the--virgin-color.jpg",
+    title: "Douceur nature",
+    image: "/img/products/douceur-nature.jpg",
     description: [
-      "Formulée avec des ingrédients végétaux et biologiques et éco-certifiée de haute qualité , spécialement sélectionnées pour leurs puissantes propriétés régénérantes , conservatrices et anti-âge.",
+      "Tous les produits sont formulés et fabriqués en France (sud-ouest) depuis plus de 50 ans    dans une vision éco-responsable et raisonnée. Ils sont vegan et sans silicone. Note excellente sur yuka.",
+      "La base lavante est conçu avec de la noix de coco, la palme issu d'une filière responsable et durable.",
+      "Des parfums le plus neutre possible.",
+      "Une eau de qualité pharmaceutique",
     ],
-    badges: [
-      'sans <abbr title="Paraphénylènediamine">PPD</abrr>',
-      "sans ammoniaque",
-    ],
+    badges: ["100% français 🇲🇫"],
   },
   {
-    title: "Nook difference Hair Care",
-    alt: "Produit Nook",
-    image: "/img/nook.jpg",
+    title: "Instant traitant",
+    image: "/img/products/instant-traitant.jpg",
     description: [
-      "Nature, Equilibre et Harmonie. Cette gamme représente la  parfaite combinaison. Traite les cheveux et le cuir chevelu avec douceur en améliorant leur beauté et en intervenant sur les anomalies les plus courantes . Elle consiste à les ramener à leur équilibre originel.",
+      "Dans un environnement soumis au stress, à la pollution et aux agressions multiples, le cuir cheveulu a besoin d’aide pour retrouver son équilibre",
+      "Apaisant pour cuir chevelu sensible.",
+      "Fortifiant et redensifiant pour chute de cheveux.",
+      "Régulateur équilibrant pour cheveux gras.",
+      "Prévention pellicules.",
+      "Gommant exfoliant pour demangeaison et pellicule.",
     ],
-    badges: [
-      "Sans parabens",
-      "Sans parfum allergisant",
-      'Sans <abbr title="Sodium Laureth Sulfate (Détergent)">SLS</abbr> ni <abbr title="Ether de lauryl sulfate de sodium (Détergent)">SLES</abbr>',
-    ],
+    badges: ["100% français 🇲🇫"],
   },
   {
-    title: "100% Vegan",
-    alt: "Produit 100% Vegan",
-    image: "/img/solar.jpg",
+    title: "Coloration Végétale Chromalya",
+    image: "/img/products/chromalya.jpg",
     description: [
-      "La nouvelle gamme de produits, 100% vegan, formulée avec au moins 90% de produit d'origine naturelle, pour les soins quotidiens de toute la famille. Les précieux ingrédients biologiques qui composent chaque produit , riches en propriétés anti-oxydantes et ultra hydratantes , protègent et préservent la santé et la beauté des cheveux et des peaux exposés au soleil , au vent , aux facteurs environnementaux , au stress et à la pollution , en été et tout au long de l'année\"",
+      "Grâce à sa texture crémeuse et sans grumeaux, la coloration naturelle Chromalya est idéale pour des applications rapides et homogènes.",
     ],
-    badges: [
-      "sans alcool",
-      'Sans <abbr title="Sodium Laureth Sulfate (Détergent)">SLS</abbr> ni <abbr title="Ether de lauryl sulfate de sodium (Détergent)">SLES</abbr>',
-      "Sans parabens",
-      "Sans allergène",
-    ],
-  },
-  {
-    title: "Biotanik Origin Color",
-    alt: "Produit Biotanik Origin Color",
-    image: "/img/united-origin.jpg",
-    description: [
-      "Après plusieurs années de  recherche , le laboratoire Inéal avec l'aide de spécialistes a crée biotanik origin color.",
-    ],
+    badges: ["100% naturelle et BIO"],
   },
 ];
